@@ -1,0 +1,144 @@
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.img_container {
+  position: relative;
+  width: 100%;
+  max-width: 1470px;
+  margin: auto;
+}
+.background-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  color: white;
+  text-align: center;
+  background: rgba(29, 51, 55, 0.481);
+  padding: 20px 40px;
+  border-radius: 50px;
+
+}
+
+.overlay-text h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.overlay-text button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: hwb(180 5% 9% / 0.947);
+  color: rgb(34, 35, 37);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.gallery-img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 26, 34, 0.382);
+}
+.package-d{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 3px;
+}
+.d1{
+  width: 150px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(232, 228, 6, 0.599);
+  float: left;
+  padding-left: 30px;
+  margin-top: 300px;
+}
+.d2{
+  width: 150px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(2, 134, 149, 0.579);
+  float: right;
+  padding-right: 30px;
+  margin-bottom: 400px;
+}
+.p1-text h2{
+  margin-top: 350px;
+  font-size: 20px;
+  margin-right: 120px;
+  float: right;
+  color: black;
+}
+.p1-text p{
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  float:right;
+  color: rgba(18, 25, 35, 0.967);
+}
+.p2-text h2{
+  font-size: 20px;
+  margin-right: 20px;
+  float: left;
+  color: black;
+}
+.p2-text p{
+  font-size: 20px;
+  margin-left: 20px;
+  float: left;
+  color: rgba(18, 25, 35, 0.967);
+}
+.p3-text h2{
+  margin-top: 350px;
+  font-size: 20px;
+  margin-right: 120px;
+  float: right;
+  color: black;
+}
+.p3-text p{
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  float: right;
+  color: rgba(18, 25, 35, 0.967);
+}
+.p4-text h2{
+  font-size: 20px;
+  margin-right: 20px;
+  float: left;
+  color:black;
+}
+.p4-text p{
+  font-size: 20px;
+  margin-left: 20px;
+  float: left;
+  color:rgba(18, 25, 35, 0.967);
+}
+#contact{
+  text-align: center;
+  margin-bottom: 100px;
+  background-color: azure;
+  color: rgb(4, 67, 78);
+}
