@@ -6,6 +6,18 @@
         <link rel="stylesheet" href="temp.css">
     </head>
     <body>
-      
-    </body>
+    <div class="container">
+      <h1>Temperature Converter</h1>
+      <label for="temp">Enter Temperature
+      <input type="number" id="temp" placeholder="Enter value"></label><br>
+      <label>Type
+     <select id="unit">
+      <option value="C">Celsius to Fahrenheit</option>
+      <option value="F">Fahrenheit to Celsius</option>
+     </select><br></label>
+     <label>Result<p id="result"></p></label>
+     <button onclick="convert()">Convert</button> 
+   </div>
+    <script src="script.js"></script>
+   </body>
 </html>
